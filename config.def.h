@@ -5,7 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Iosevka SS09 Light Extended:size=12:antialias=true:autohint=false:hinting=true:hintstyle=hintmedium:dpi=96:lcdfilter=lcddefault:rgba=rgb";
+/* static char *font = "Iosevka SS09 Light Extended:size=12:antialias=true:autohint=false:hinting=true:hintstyle=hintmedium:dpi=96:lcdfilter=lcddefault:rgba=rgb"; */
+static char *font = "Iosevka SS09:pixelsize=16:style=Light Extended";
 /* Spare fonts */
 static char *font2[] = {
     "Liberation Mono:pixelsize=12:antialias=true:autohint=true"
@@ -18,7 +19,7 @@ int disablebold = 1;
 int disableitalic = 1;
 int disableroman = 1;
 
-static int borderpx = 2;
+static int borderpx = 0;
 
 /*
  * What program is execed by st depends of these precedence rules:
